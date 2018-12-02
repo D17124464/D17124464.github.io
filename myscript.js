@@ -16,11 +16,11 @@ function topFunction() {
 }
 
 function validateForm() {
-    var x = document.getElementById("emailaddress").value;
+    var x = document.getElementById("username").value;
     if (x == "") {
         alert("Name must be filled out");
         return false;
     } else {
-    	alert("Hello " + x);
+    	alert("Hello " + x+". Please email me your comments.");
     }
 }
