@@ -1,4 +1,4 @@
-// When the user scrolls down 20px from the top of the document, show the button
+/*THIS IS CODE FROM W3SCHOOLS*/
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -15,12 +15,14 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
+
+/*THIS IS MY OWN JS CODE*/
 function validateForm() {
-    var x = document.getElementById("emailaddress").value;
+    var x = document.getElementById("username").value;
     if (x == "") {
         alert("Name must be filled out");
         return false;
     } else {
-    	alert("Hello " + x);
+    	alert("Hello " + x+". Please email me your comments.");
     }
 }
