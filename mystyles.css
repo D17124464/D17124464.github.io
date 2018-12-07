@@ -178,6 +178,7 @@ grid-column-gap:10px;
     "title title title"min-content
 	"content content content" auto/1fr 1fr 1fr; 
 	grid-column-gap: 10px;
+	
 	box-shadow: 5px 10px 8px #888888;
 	padding: 5px;
 	background-color:#edeae5;
@@ -209,7 +210,7 @@ grid-column-gap:10px;
 .picstyle{color: #fff;
   display: flex;
   flex-direction: column;
-  max-width:100%;
+  /*max-width:100%;*/
 }
 
 .mainpic {
